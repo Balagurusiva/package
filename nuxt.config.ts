@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        "College Dashboard",
+        "Cblaze Product",
     },
   },
   build: {

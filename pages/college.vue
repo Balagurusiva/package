@@ -18,14 +18,14 @@ desserts.value =res.questions
             <UiChildCard title="College Details">
                 <v-table fixed-header height="300px">
                     <thead>
-                        <tr>
+                        <tr style="border-bottom: 1px solid rgb(203, 203, 203) !important;">
                             <th class="text-left">NAME</th>
                             <th class="text-left">EMAIL</th>
                             <th class="text-left">LOCATIOIN</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="item in desserts" :key="item.name">
+                        <tr v-for="item in desserts" :key="item.name" style="border-bottom: 1px solid rgb(203, 203, 203) !important;">
                             <td>{{ item.name }}</td>
                             <td>{{ item.location }}</td>
                             <td>{{ item.email }}</td>
@@ -35,7 +35,21 @@ desserts.value =res.questions
             </UiChildCard>
         </v-col>
     </v-row>
+    
 
 
     
 </template>
+
+<style>
+table{
+    border-collapse: collapse !important;
+}
+
+tab
+
+tr{
+    border-bottom: 1.5px solid rgb(203, 203, 203) !important;
+}
+
+</style>

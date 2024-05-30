@@ -20,7 +20,7 @@ desserts.value =res.attendance
             <UiChildCard title="Attendance">
                 <v-table fixed-header height="300px">
                     <thead>
-                        <tr>
+                        <tr style="border-bottom: 1px solid rgb(203, 203, 203) !important;">
                             <th class="text-left">ID</th>
                             <th class="text-left">STUDENT ID</th>
                             <th class="text-left">SUBJECT ID</th>
@@ -29,7 +29,7 @@ desserts.value =res.attendance
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="item in desserts" :key="item.name">
+                        <tr v-for="item in desserts" :key="item.name" style="border-bottom: 1px solid rgb(203, 203, 203) !important;">
                             <td>{{ item.id }}</td>
                             <td>{{ item.student_id }}</td>
                             <td>{{ item.subject_id }}</td>

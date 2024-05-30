@@ -69,11 +69,11 @@ const sidebarItem: menu[] = [
 	},
 	 
 
-	{ header: "Auth" },
-	{
-		title: "Login",
-		to: "/",
-	},
+	// { header: "Auth" },
+	// {
+	// 	title: "Login",
+	// 	to: "/",
+	// },
 	// {
 	// 	title: "Register",
 	// 	to: "/auth/register",

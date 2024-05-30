@@ -32,28 +32,16 @@ const sDrawer = ref(true);
          
         </perfect-scrollbar>
     </v-navigation-drawer>
-    <!-- <div class="container verticalLayout">
+    <div class="container verticalLayout">
         <div class="maxWidth">
             <v-app-bar elevation="0" height="70">
-                <div class="d-flex align-center justify-space-between w-100">
+                <div class="d-flex align-center justify-end w-100"> 
                     <div>
-                        <v-btn class="hidden-lg-and-up text-muted" @click="sDrawer = !sDrawer" icon
-                            variant="flat" size="small">
-                            <Menu2Icon size="20" stroke-width="1.5" />
-                        </v-btn>
-                        Notification 
-                        <LayoutFullVerticalHeaderNotificationDD />
-                    </div>
-                    <div>
-                         Upgrade button
-                        <v-btn class="mr-2 bg-primary rounded-pill"
-                            href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/"
-                            target="_blank">Upgrade to Pro</v-btn>
-                        User Profile 
+                        User Name 
                         <LayoutFullVerticalHeaderProfileDD />
                     </div>
                 </div>
             </v-app-bar>
         </div>
-    </div> -->
+    </div> 
 </template>

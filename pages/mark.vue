@@ -17,7 +17,7 @@
 			<UiChildCard title="Mark">
 				<v-table fixed-header height="300px">
 					<thead>
-						<tr>
+						<tr style="border-bottom: 1px solid rgb(203, 203, 203) !important;">
 							<th class="text-left">ID</th>
 							<th class="text-left">STUDENT ID</th>
 							<th class="text-left">EXAM ID</th>
@@ -27,7 +27,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr v-for="item in desserts" :key="item.name">
+						<tr v-for="item in desserts" :key="item.name" style="border-bottom: 1px solid rgb(203, 203, 203) !important;">
 							<td>{{ item.id }}</td>
 							<td>{{ item.student_id }}</td>
 							<td>{{ item.exam_id }}</td>

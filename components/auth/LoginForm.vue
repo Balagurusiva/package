@@ -31,11 +31,7 @@ const handleLogin = () => {
                     <v-checkbox hide-details color="primary">
                         <template v-slot:label class="">Remeber this Device</template>
                     </v-checkbox>
-                    <div class="ml-sm-auto">
-                        <RouterLink to=""
-                            class="text-primary text-decoration-none text-body-1 opacity-1 font-weight-medium">
-                            Forgot Password ?</RouterLink>
-                    </div>
+                     
                 </div>
             </v-col>
             <v-col cols="12">
