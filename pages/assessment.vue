@@ -1,18 +1,10 @@
 <script setup>
 import { ref } from 'vue';
 import UiChildCard from '@/components/shared/UiChildCard.vue';
-const desserts = ref();
-
-// const axios = useNuxtApp().$axios;
-
-// onBeforeMount( async () => {
-//     const res = await axios.get("https://cblaze-product.trainingzone.in/api/internal-assessments" ) 
-//     console.log(res)
-// })
-
+const desserts = ref(); 
 const res = await $fetch('https://cblaze-product.trainingzone.in/api/internal-assessments', {
     method: 'GET', 
-  })
+  }) 
 
 desserts.value =res.assessments
  

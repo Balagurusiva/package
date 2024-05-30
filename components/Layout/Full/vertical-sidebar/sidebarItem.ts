@@ -42,10 +42,25 @@ const sidebarItem: menu[] = [
 
 		to: "/attendance",
 	},
+    {
+		title: "Academic Year",
+
+		to: "/academic",
+	},
+    {
+		title: "Course",
+
+		to: "/course",
+	},
 	{
 		title: "Exam",
 
 		to: "/exam",
+	},
+    {
+		title: "Semester",
+
+		to: "/semester",
 	},
 	{
 		title: "Subject",
